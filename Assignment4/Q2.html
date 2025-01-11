@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration Form</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Event Registration</h2>
+    <form id="registrationForm" action="#" method="POST">
+        <label for="fullName">Full Name</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+      </div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
+      </div>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567"><br><br>
+      </div>
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="Prefer not to say" name="gender" value="Prefer not to say">
+        <label for="Prefer not to say">Prefer not to say</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+      </div>
+        <label for="ageGroup">Age Group</label><br>
+        <select id="ageGroup" name="ageGroup" required><br><br>
+          <option value="">Select your age group</option>
+          <option value="16-18">16-18</option>
+          <option value="18-25">18-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-45">36-45</option>
+          <option value="46-60">46-60</option>
+          <option value="60+">60+</option>
+        </select>
+      </div>
+        <br><br><label>Topics of Interest</label><br>
+        <input type="checkbox" id="topic1" name="topics" value="Technology">
+        <label for="topic1">Technology</label>
+        <input type="checkbox" id="topic2" name="topics" value="Health">
+        <label for="topic2">Health</label>
+        <input type="checkbox" id="topic3" name="topics" value="Business">
+        <label for="topic3">Business</label>
+        <input type="checkbox" id="topic4" name="topics" value="Education">
+        <label for="topic4">Education</label>
+        <input type="checkbox" id="topic5" name="topics" value="Marketing">
+        <label for="topic4">Marketing</label><br><br>
+      </div>
+        <label for="comments">Additional Comments</label><br>
+        <textarea id="comments" name="comments" class="comment-box" placeholder="Any additional comments or questions?" rows="10"></textarea><br><br>
+      </div>
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

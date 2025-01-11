@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Travel Booking</h1>
+        <label for="name">Name</label><br>
+        <input id="name" name="name" type="text" placeholder="Enter your full name"><br><br>
+        <label for="cont">Contact info: </label><br><br>
+        <label for="cont">Mobile Number</label><br>
+        <input id="cont" name="cont" type="text" placeholder="Enter your mobile number" pattern="[0-9]{10}"><br><br>
+        <label for="cont">Mail id</label><br>
+        <input id="cont" name="cont" type="email" placeholder="example@gmail.com" ><br><br>
+        <label for="destination">Destination</label><br>
+        <select id="destination" name="destination">
+            <option value="1">India</option>
+            <option value="1">Australia</option>
+            <option value="1">Malaysia</option>
+            <option value="1">South Africa</option>
+            <option value="1">Pakistan</option>
+            <option value="1">West Indies</option>
+            <option value="1">New Zealand</option>
+        </select><br><br>
+        <label>Date</label><br>
+        <label for="fdate">from date</label><br>
+        <input id="fdate" name="fdate" type="date"><br><br>
+        <label for="tdate">to date</label><br>
+        <input id="tdate" name="tdate" type="date"><br><br>
+        <label for="ntravel">Number of travelers</label><br>
+        <input id="ntravel" name="ntravel" type="number" placeholder="Enter number of travelers"><br><br>
+        <label for="travelclass">Travel class</label><br>
+        <input type="radio" id="Economy" name="travelclass">
+        <label for="travelclass">Economy</label><br>
+        <input type="radio" id="Buisiness" name="travelclass">
+        <label for="Buisiness">Buisiness</label><br>
+        <input type="radio" id="Firstclass" name="travelclass">
+        <label for="Firstclass">First Class</label><br><br>
+        <input type="checkbox" id="traveli" name="traveli">
+        <label for="traveli">Travel Insurance</label><br><br>
+        <label for="Total">Total Cost</label><br>
+        <input id="Total" name="Total" placeholder="Total cost will be calculated" readonly><br><br>
+        <button type="botton" onclick="Submitted">SUBMIT</button>
+</body>
+</html>

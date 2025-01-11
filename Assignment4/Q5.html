@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Product Order</h2>
+        <form>
+            <label for="n">Full name</label><br>
+            <input id="n" name="n" type="text" placeholder="Enter your full name" required><br><br>
+            <label for="em">E-mail</label><br>
+            <input id="em" name="em" type="email" placeholder="example@gmail.com" required><br><br>
+            <label for="Address">Address</label><br>
+            <input id="Address" name="Address" type="text" placeholder="Enter your address "><br><br>
+            <label>Product</label><br>
+            <select id="Product" name="Product">
+              <option value ="select your product">Select your product</option>
+                <option value="Cricket Bat - 1200">Cricket Bat - 1200</option>
+                <option value="Red Ball - 350">Red Ball - 350</option>
+                <option value="Batting Gloves -  250">Batting Gloves -  250</option>
+                <option value="Keeping Gloves - 300">Keeping Gloves - 300</option>
+            </select><br><br>
+            <label for="QUANTITY">QUANTITY</label><br>
+            <input type="number" id="QUANTITY" name="QUANTITY" min="1" placeholder="Enter the quantity of product" required><br><br>
+            <label for="DELIVERY">DELIVERY</label><br>
+            <input type="radio" id="Standard" name="DELIVERY">
+            <label for="Standard">Standard</label>
+            <input type="radio" id="Express" name="DELIVERY">
+            <label for="Express">Express</label><br><br>
+           <label for="ApplyCoupon">Apply Coupon:</label> <br>
+           <input type="text" id="ApplyCoupon" name="ApplyCoupon" placeholder="Enter the coupon code" required><br><br>
+           <label for="Total">Total Price</label><br>
+           <input type="text" id="Total" name="Total" placeholder="Total Price" readonly><br><br>
+           <button type="submit">SUBMIT</button>
+        </form>
+</body>
+</html>
